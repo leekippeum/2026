@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_caution_gray" width="12" height="15" viewBox="0 0 12 15">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#fff}.cls-1{opacity:0}.cls-2{stroke:gray}.cls-3{fill:gray}.cls-4{stroke:none}.cls-5{fill:none}
+        </style>
+    </defs>
+    <rect id="area" width="12" height="15" class="cls-1" rx="6"/>
+    <g id="ico_caution" transform="translate(-25 -486)">
+        <g class="cls-2" transform="translate(25 486)">
+            <rect width="12" height="15" class="cls-4" rx="6"/>
+            <rect width="11" height="14" x=".5" y=".5" class="cls-5" rx="5.5"/>
+        </g>
+        <circle id="타원_231" cx=".75" cy=".75" r=".75" class="cls-3" transform="translate(30.25 490)"/>
+        <path d="M0 0h1.5v4.5H0z" class="cls-3" transform="translate(30.25 492.5)"/>
+    </g>
+</svg>

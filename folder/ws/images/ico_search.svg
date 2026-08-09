@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_19" data-name="사각형 19" width="25" height="25" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ico-search" transform="translate(-1273 -892)">
+    <rect id="사각형_111" data-name="사각형 111" width="45" height="45" transform="translate(1273 892)" fill="none"/>
+    <g id="그룹_37" data-name="그룹 37" transform="translate(1283.517 902.518)">
+      <g id="그룹_36" data-name="그룹 36" transform="translate(-0.517 -0.517)" clip-path="url(#clip-path)">
+        <ellipse id="타원_3" data-name="타원 3" cx="9.944" cy="9.884" rx="9.944" ry="9.884" transform="translate(1.211 1.207)" fill="none" stroke="#010000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="선_55" data-name="선 55" x2="5.675" y2="5.641" transform="translate(18.113 18.152)" fill="none" stroke="#010000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

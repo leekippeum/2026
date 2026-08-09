@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 20 26">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#fff;stroke-width:1.5px;stroke:#e5e5e5}.cls-4{stroke:#e5e5e5;stroke-linejoin:round;stroke-width:2px}.cls-5{stroke:none}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h20v26H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="btn_check_02_inactive" class="cls-2">
+        <g id="Rectangle_488" class="cls-3">
+            <rect width="20" height="26" class="cls-5" rx="10"/>
+            <rect width="18.5" height="24.5" x=".75" y=".75" class="cls-1" rx="9.25"/>
+        </g>
+        <path id="Path_1086" d="M68.869 797.661v4.5h8" class="cls-4" transform="rotate(-45 -910.15 481.048)"/>
+    </g>
+</svg>

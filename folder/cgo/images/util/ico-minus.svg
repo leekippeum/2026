@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .ico-minus-cls-1{fill:none}.ico-minus-cls-3{fill:#ddd}.ico-minus-cls-4{fill:transparent}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h40v40H0z" class="ico-minus-cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="ico_minus_disable" class="ico-minus-cls-2 cls-4">
+        <g id="ico_minus_disable-2" transform="rotate(180 123.5 264.5)">
+            <path id="guide" d="M0 0h40v40H0z" class="ico-minus-cls-1" transform="translate(207 489)"/>
+            <path id="ico_minus" d="M0 0h14v2H0z" class="ico-minus-cls-3" transform="translate(220 508)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width">
+        <title>ICAO K-FTP</title>
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- css -->
+        <link rel="stylesheet" href="../css/vendor/jquery-ui.css">
+        <link rel="stylesheet" href="../css/vendor/swiper-bundle.css">
+        <link rel="stylesheet" href="../css/vendor/daterangepicker.css">
+        <link rel="stylesheet" href="../css/webfont.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- js -->
+        <script type="text/javascript" src="../js/vendor/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="../js/vendor/jquery-ui.js"></script>
+        <script type="text/javascript" src="../js/vendor/swiper-bundle.js"></script>
+        <script type="text/javascript" src="../js/vendor/moment.min.js"></script><!-- moment가 daterrange 위에 있어야함 -->
+        <script type="text/javascript" src="../js/vendor/daterangepicker.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+        <script type="text/javascript" src="../js/style.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="hdTop">
+                <div class="hdConWrap">
+                    <p>Welcome to the ROK-ICAO Fellowship training programme</p>
+                    <ul class="hdTopConWrap flex"><!--로그인 전-->
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
+                    <!-- <ul class="hdTopConWrap flex"> 로그인 후
+                        <li>
+                            <span class="usNm">User Name</span>
+                            <button class="btnLogout">Sign Out</button>
+                        </li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul> -->
+                </div>
+            </div>
+            <div class="gnbConWrap">
+                <nav class="hdConWrap">
+                    <a href="#" class="logo">K-FTP</a>
+                    <ul class="gnbCon flex">
+                        <li>
+                            <a href="#" class="menu">GENERAL INTRODUCTION</a>
+                            <ul class="subMenu">
+                                <li><a href="#">Greetings</a></li>
+                                <li><a href="#">History of Training Program</a></li>
+                                <li><a href="#">About MOLIT</a></li>
+                                <li><a href="#">Cooperation Institute</a></li>
+                                <li><a href="#">Aviation Academy</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu">TRAINING PROGRAMMES</a>
+                            <ul class="subMenu">
+                                <li><a href="#">Training Course</a></li>
+                                <li><a href="#">How to Apply</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu">MASTER PROGRAMMES</a>
+                            <ul class="subMenu">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Program</a></li>
+                                <li><a href="#">Admission</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu">COMMUNITY</a>
+                            <ul class="subMenu">
+                                <li><a href="#">Notice</a></li>
+                                <li><a href="#">Q&A</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Education Material</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu">ALUMNI</a>
+                            <ul class="subMenu">
+                                <li><a href="#">Training Highlights</a></li>
+                                <li><a href="#">Trainee Voices & Alumni Success</a></li>
+                                <li><a href="#">Alumni Updates</a></li>
+                                <li><a href="#">Discover Korean Aviation</a></li>
+                                <li><a href="#">Key Events & Activities</a></li>
+                                <li><a href="#" class="vlink">VISIT KOREA</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li> 로그인 후 보여지는 메뉴
+                            <a href="#" class="menu">MY PAGE</a>
+                            <ul class="subMenu">
+                                <li><a href="#">My Training Cou rse</a></li>
+                                <li><a href="#">My Info</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+            <div class="hdBg"></div>
+        </header>
+
+        <section>
+            <div class="mainContainer">
+                <div class="buble"></div>
+                <div class="buble"></div>
+                <div class="mainCon">
+                    <p class="keyMessage">the rok_icao fellowship<span>training programme</span></p>
+                    <div class="applyWrap">
+                        <p class="period">08.05.2024 ~ 12.19.2025</p>
+                        <div class="flex">
+                            <strong class="programTitle">2024 Korea’s Fellowship Programme on Global Aviation Policy</strong>
+                            <p class="deadline">
+                                Application Deadline
+                                <span>Jul 15, 2024</span>
+                            </p>
+                        </div>                            
+                        <button class="btn btnApply">Apply Now</button>
+                    </div>
+                    <div class="BottomWrap flex">
+                        <button class="trProBtn">
+                            Training Programmes
+                            <i></i>
+                        </button>
+                        <button class="alumBtn">
+                            Alumni
+                            <span>Achievement, Interview, and more</span>
+                            <i></i>
+                        </button>
+                    </div>
+                    <!-- <div class="ANS flex">
+                        <dl>
+                            <dt>ANS Experts Training Program</dt>
+                            <dd>ANS Experts Training Program offers you chance to learn and experience the latest ANS technologies and Global ANS Trends <span>​Join the program for the expansion of your ANS Knowledge and experience</span></dd>
+                        </dl>
+                        <button class="btn mainBtnArr">Training Programmes</button>
+                    </div> -->
+                    <!-- <div class="programWrap flex">
+                        <div class="applyWrap">
+                            <p class="period">08.05.2024 ~ 12.19.2025</p>
+                            <strong class="programTitle">2024 Korea’s Fellowship Programme on Global Aviation Policy</strong>
+                            <p class="deadline">
+                                Application Deadline
+                                <span>Jul 15, 2024</span>
+                            </p>
+                            <button class="btn btnApply">APPLY</button>
+                        </div>
+                        <!-- Swiper -->
+                        <!-- <div class="closedWrap swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <p class="period">08.05.2024 ~ 12.19.2025</p>
+                                    <strong class="programTitle">2024 Korea’s Fellowship Programme on Global Aviation Policy</strong>
+                                    <p class="deadline">
+                                        Application Deadline
+                                        <span>Jul 15, 2024</span>
+                                    </p>
+                                    <div class="closed">CLOSED</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p class="period">08.05.2024 ~ 12.19.2025</p>
+                                    <strong class="programTitle">2024 Korea’s Fellowship Programme on Global Aviation Policy</strong>
+                                    <p class="deadline">
+                                        Application Deadline
+                                        <span>Jul 15, 2024</span>
+                                    </p>
+                                    <div class="closed">CLOSED</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p class="period">08.05.2024 ~ 12.19.2025</p>
+                                    <strong class="programTitle">2024 Korea’s Fellowship Programme on Global Aviation Policy</strong>
+                                    <p class="deadline">
+                                        Application Deadline
+                                        <span>Jul 15, 2024</span>
+                                    </p>
+                                    <div class="closed">CLOSED</div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="boardWrap">
+                <ul class="boardCon flex">
+                    <li>
+                        <div class="bdTitleWrap flex">
+                            <p>Notice</p>
+                            <a href="#" class="btnMore">More</a>
+                        </div>
+                        <ul class="bdListWrap">
+                            <li>
+                                <a href="#">ROK-KAU 2024 Korea’s Fellowship Program on Global Aviation Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">2024_The final selection result of '(B-5)Aerodrome Inspection' course</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="bdTitleWrap flex">
+                            <p>FAQ</p>
+                            <a href="#" class="btnMore">More</a>
+                        </div>
+                        <ul class="bdListWrap">
+                            <li>
+                                <a href="#">How can I proceed a visa?</a>
+                            </li>
+                            <li>
+                                <a href="#">How can I check the schedule?</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="reportWrap">
+                <div class="reportCon flex">
+                    <button class="btnReport">HOW TO APPLY</button>
+                </div>
+            </div>
+            <div class="familySiteWrap">
+                <ul class="familySite flex">
+                    <li>
+                        <a href="http://www.molit.go.kr/english/intro.do" target="_blank" class="flex"><img src="../images/familySite01.png">국토교통부</a>
+                    </li>
+                    <li>
+                        <a href="http://www.icao.int/" target="_blank" class="flex"><img src="../images/familySite02.png">ICAO</a>
+                    </li>
+                    <li>
+                        <a href="https://www.airport.co.kr/kcaaeng/index.do" target="_blank" class="flex"><img src="../images/familySite03.png">한국공항공사</a>
+                    </li>
+                    <li>
+                        <a href="https://iaaa.airport.kr:10443/" target="_blank" class="flex"><img src="../images/familySite04.png">인천공항공사</a>
+                    </li> 
+                    <li>
+                        <a href="https://english.visitkorea.or.kr/svc/main/index.do" target="_blank" class="flex"><img src="../images/familySite05.png">한국관광공사</a>
+                    </li> 
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footerWrap">
+                <ul>
+                    <li><a href="#" class="pp">Privacy Policy</a></li><!-- Privacy Policy 폰트 강조 클래스 추가 -->
+                </ul>
+                <div class="bottom">
+                    <div class="desc">
+                        <img src="../images/logo_w.png" alt="footer logo">
+                        <dl>
+                            <dt>ROK-ICAO <span>F</span>ELLOWSHIP <span>T</span>RAINING <span>P</span>ROGRAMME</dt>
+                            <dd>11 Doum 6-ro, Government Complex-Sejong, Sejong City 30103, Republic of Korea<br>
+                                Telephone : (Day)+82-44-1599-0001 (Night)+82-44-201-4672<br>
+                                Fax : (Day)+82-44-860-9500 (Night)+82-44-201-5700
+                            </dd>
+                        </dl>
+                    </div>
+                    <p class="copy">© 2024. Ministry of Land, Infrastructure and Transport. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <button class="topBtn">Top</button><!-- 페이지 탑 버튼 : 클릭 시 상단으로 이동 -->
+    </body> 
+</html>

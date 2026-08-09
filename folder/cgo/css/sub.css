@@ -1,0 +1,616 @@
+@charset "UTF-8";
+
+/*------------------------------------
+date: 2022.09
+developed by: smartport
+developer url: smartport
+------------------------------------*/
+
+/****************
+***** layout *****
+****************/
+.layout {
+    width: 100%;
+    height: auto;
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 60px 120px 200px;
+}
+.comTitle {
+    margin-bottom: 60px;
+}
+.comTitle.mt100 {
+    margin-top: 100px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subTit {
+    font-size: 3.6rem;
+    font-weight: 700;
+	line-height: 1.6em;
+}
+.subTit .sub {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    line-height: 1.8em;
+}
+.subMdTit { /* h2태그 사용 */
+    font-size: 2.6rem;
+}
+.subSmTit { /* h3태그 사용 */
+    font-size: 2rem;
+}
+.subXSmTit { /* h4태그 사용 */
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+.comContent {
+    padding-top: 100px;
+}
+.comContent:first-child {
+    padding-top: 0;
+}
+.comContent.bdT {
+    border-top: 2px solid #222;
+}
+.comContent.pd0 {
+    padding-top: 0;
+}
+.comContent.pd10 {
+    padding-top: 10px;
+}
+.comContent.pd30 {
+    padding-top: 30px;
+}
+.comContent.pd60 {
+    padding-top: 60px;
+}
+.comContent.bdB {
+    padding-bottom: 60px;
+    border-bottom: 2px solid #222;
+}
+.comContent .contents {
+    margin-top: 60px;
+}
+.comContent .contents:first-of-type {
+	margin-top: 20px;
+}
+.buttonWrap {
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 1700px) {
+	.layout {
+    	padding: 60px 40px 200px;
+	}
+}
+
+
+@media only screen and (max-width: 1023px) {
+	.layout {
+    	padding: 60px 25px 100px;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.layout {
+    	padding: 60px 25px 200px;
+	}
+	.subTit {
+	    font-size: 2.6rem;
+	}
+	.subTit .sub {
+	    margin-top: 10px;
+	    font-size: 1.4rem;
+	}
+	.subMdTit {
+	    font-size: 1.8rem;
+	}
+	.subSmTit {
+	    font-size: 1.6rem;
+	}
+	.subXSmTit {
+		font-size: 1.4rem;
+	}
+	.comContent {
+        padding-top: 60px;
+    }
+}
+
+/***************
+*** imgRound ***
+***************/
+.imgRound {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    line-height: 1;
+    background: #f2f2f2;
+    border-radius: 20px;
+}
+.imgRound > img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1023px) {
+	.imgRound {
+		border-radius: 10px;
+	}
+}
+
+/***************
+*** li 공통 ***
+***************/
+.listGlobal > li {
+    padding-left: 10px;
+    position: relative;
+}
+.listGlobal > li::before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    border-radius: 50%;
+    background: #222;
+}
+@media only screen and (max-width: 767px) {
+    .listGlobal > li {
+        font-size: 1.4rem;
+        line-height: 1.6em;
+    }
+}
+
+/****************
+****** 소개 ******
+****************/
+/* 에어프레미아 카고 */
+.hisWrap {
+    position: relative;
+}
+.hisWrap::before {
+    content: "";
+    width: 1px;
+    height: calc(100% - 30px );
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    background: #ddd;
+    transform: translateY(-50%);
+}
+.hisWrap .hisCon {
+    margin-top: 30px;
+    padding-left: 18px;
+    display: flex;
+    position: relative;
+}
+.hisWrap .hisCon:first-child {
+    margin-top: 0;
+}
+.hisWrap .hisCon::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #fff;
+    border: 3px solid #6B7586;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+}
+.hisWrap .hisCon .month {
+    width: 40px;
+    font-family: 'Premia';
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ff5800;
+}
+
+/* 항공기 */
+.deckConfigImg .pcImg {
+    width: 100%;
+}
+.deckConfigImg .mbImg {
+    max-width: 100%;
+    margin: 0 auto;
+    display: none;
+}
+
+/* 단위탑재용기(ULD) */
+.imgUld {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imgUld img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+    .hisWrap .hisCon .month {
+        font-size: 2.4rem;
+    }
+    .deckConfigImg .pcImg {
+        display: none;
+    }
+    .deckConfigImg .mbImg {
+        display: block;
+    }
+}
+
+/****************
+* 상품 및 서비스 *
+****************/
+/* PREMIA350 */
+.pdSvImgWrap {
+    display: flex;
+}
+.pdSvImgWrap .imgBox {
+    width: 100%;
+    margin-right: 30px;
+    align-self: flex-start;
+    text-align: left;
+}
+.pdSvImgWrap .imgBox:last-child {
+    margin-right: 0;
+}
+.pdSvImgWrap .imgBox .badgeWrap {
+    margin-bottom: 15px;
+}
+.pdSvImgWrap .imgBox .badgeWrap .badgeArrow {
+    margin-right: 5px;
+}
+.pdSvImgWrap .imgBox .badgeWrap .arTxt {
+    color: #ff5800;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -0.7;
+}
+.pdSvImgWrap .imgBox .pdSvImg {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 10px;
+}
+/* Premia Special */
+.svcWrap {
+    margin-top: 60px;
+    display: flex;
+}
+.svcWrap .svcBox {
+    width: 100%;
+    margin-right: 30px;
+    text-align: center;
+}
+.svcWrap .svcBox:last-child {
+    margin-right: 0;
+}
+.svcWrap .svcBox .svcImg {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 20px;
+}
+.svcWrap .svcBox .svcCon {
+    font-weight: 700;
+    word-break: keep-all;
+}
+@media only screen and (max-width: 799px) {
+    .pdSvImgWrap .imgBox .mbNone {
+        display: none;
+    }
+    .pdSvImgWrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .pdSvImgWrap .imgBox {
+        width: calc( 50% - 15px );
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pdSvImgWrap .imgBox .badgeWrap .arTxt {
+        font-size: 1.6rem;
+    }
+    .svcWrap {
+        flex-wrap: wrap;
+    }
+    .svcWrap .svcBox {
+        width: calc( 50% - 15px );
+        margin-top: 40px;
+    }
+    .svcWrap .svcBox:nth-child(-n+2) {
+        margin-top: 0;
+    }
+    .svcWrap .svcBox:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .pdSvImgWrap {
+        flex-direction: column;
+        gap: 0;
+    }
+    .pdSvImgWrap .imgBox {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .pdSvImgWrap .imgBox:last-child {
+        margin-bottom: 0;
+    }
+    .svcWrap .svcBox {
+        width: 100%;
+        margin-right: 0;
+    }
+    .svcWrap .svcBox:nth-child(-n+2) {
+        margin-top: 40px;
+    }
+    .svcWrap .svcBox:first-child {
+        margin-top: 0;
+    }
+}
+
+/****************
+** 공지사항/뉴스 **
+****************/
+.ntcList li {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+.ntcList li:hover dt {
+    color: #ff5800;
+}
+.ntcList .ntclft {
+    width: 85%;
+}
+.ntclft dt {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.ntclft dt .badgeWrap {
+    padding-left: 15px;
+}
+.ntclft.fix dt {
+    font-weight: 700;
+}
+.ntclft dd {
+    margin-top: 16px;
+}
+.ntcDtWrap .badgeWrap {
+    padding-bottom: 20px;
+}
+.ntcCont {
+	padding-top: 60px;	
+	border-top: 2px solid #222;
+}
+.ntcCont * {
+	font-family: 'NotoSans', sans-serif !important;
+}
+.ntcCont h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.ntcCont .txtCont { 
+    margin-top: 60px;
+    color: #222;
+}
+.ntcBottom {
+    padding: 30px 0px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .ntcList li {
+        padding: 20px 0px;
+        display: block;
+    }
+    .ntcList a {
+        display: block;
+    }
+    .ntcList .ntclft {
+        width: 100%;
+    }
+    .ntclft dt {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        font-size: 1.8rem;
+        letter-spacing: -0.4px;
+    }
+    .ntclft dt .badgeWrap {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+    .ntclft dd {
+        display: none;
+    }
+    .ntcList .ntcrgt {
+        width: 100%;
+        margin-top: 10px;
+        text-align: left;
+    }
+    .ntcCont {
+    	padding-top: 40px;
+    }
+    .ntcCont .txtCont {
+    	margin-top: 40px;
+    }
+    .ntcBottom {
+    	margin-top: 40px;
+        padding: 20px 0px;
+        display: block;
+        font-size: 1.4rem;
+    }
+    .ntcBottom .title {
+        margin-bottom: 10px;
+    }
+}
+
+
+/****************
+*****지점안내*****
+****************/
+.ofcInfo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.ofcInfo .office {
+    width: calc(50% - 30px);
+    padding: 45px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+.ofcInfo .office .title {
+    color: #1B2B45;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.ofcInfo .office .title span {
+    margin-left: 20px;
+    color: #ff5800;
+    position: relative;
+}
+.ofcInfo .office .title span::before {
+    width: 1px;
+    height: 20px;
+    background: #ddd;
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -10px;
+}
+.ofcInfo .office .subSmTit i {
+    width: 20px;
+    height: 25px;
+    margin-left: 10px;
+    flex-shrink: 0;
+    flex-basis: 20px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.ofcInfo .office .subSmTit i.map {
+    background: url(../images/sub/icon_map.png) no-repeat;
+    background-size: cover;
+}
+
+.ofcInfo .office .contents .add span {
+    width: 100%;
+    display: block;
+}
+.ofcInfo .office .contents .cntc span {
+    width: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* 지도팝업 */
+.popBg {
+    display: none;
+    background-color: rgb(0, 0, 0,0.7);
+    position: fixed;
+    inset: 0px;
+    z-index: 9998;
+}
+.popBg.on {
+    display: block;
+}
+.popBox {
+    width: calc(100% - 100px);
+    max-width: 1200px;
+    min-width: 280px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.popBox .popTit {
+    padding: 50px;
+}
+.popTit .xBtnWrap {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    top: 54px;
+    right: 45px;
+
+}
+.xBtnWrap .b-close {
+    width: 100%;
+    height: 100%;
+    text-indent: -999em;
+    position: relative;
+}
+.xBtnWrap .b-close::before, .xBtnWrap .b-close::after {
+    content: '';
+    height: 25px;
+    width: 2px;
+    position: absolute;
+    left: 14px;
+    top: 3px;
+    background: #222;
+}
+.xBtnWrap .b-close::before {
+    transform: rotate(45deg);
+}
+.xBtnWrap .b-close::after {
+    transform: rotate(-45deg);
+}
+.popBox .popCont {
+    height: 500px;
+    padding: 50px 50px;
+}
+
+@media only screen and (max-width: 767px) {
+    .ofcInfo .office {
+        width: 100%;
+    }
+    .ofcInfo .office .rud .tabBtn {
+        margin-bottom: 0px;
+    }
+
+    .popBox {
+        min-width: 280px;
+        max-width: 640px;
+        height: 43vh;
+    }
+    .popBox .popTit {
+        padding: 30px 25px 50px;
+    }
+    .popBox .popCont {
+        height: 280px;
+        padding: 25px;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .ofcInfo .office {
+        padding: 20px;
+        border-radius: 8px;
+    }
+}

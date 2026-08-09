@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Premia';
+  font-weight: 400;
+  src: url('font/Premia-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Premia';
+  font-weight: 700;
+  src: url('font/Premia-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-weight: 100;
+  src: url('font/NotoSans-Thin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-weight: 200;
+  src: url('font/NotoSans-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-weight: 300;
+  src: url('font/NotoSans-DemiLight.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-weight: 400;
+  src: url('font/NotoSans-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-weight: 500;
+  src: url('font/NotoSans-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-weight: 700;
+  src: url('font/NotoSans-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-weight: 800;
+  src: url('font/NotoSans-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "Heebo";
+  font-weight: 400;
+  src: url("font/Heebo-Regular.woff2") format("woff2");
+  unicode-range: U+0020-007E;
+}
+@font-face {
+  font-family: "Heebo";
+  font-weight: 700;
+  src: url("font/Heebo-Medium.woff2") format("woff2");
+  unicode-range: U+0020-007E;
+}

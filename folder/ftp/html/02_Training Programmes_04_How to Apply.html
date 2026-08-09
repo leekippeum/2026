@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width">
+        <title>ICAO K-FTP</title>
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- css -->
+        <link rel="stylesheet" href="../css/vendor/jquery-ui.css">
+        <link rel="stylesheet" href="../css/vendor/swiper-bundle.css">
+        <link rel="stylesheet" href="../css/vendor/daterangepicker.css">
+        <link rel="stylesheet" href="../css/webfont.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- js -->
+        <script type="text/javascript" src="../js/vendor/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="../js/vendor/jquery-ui.js"></script>
+        <script type="text/javascript" src="../js/vendor/swiper-bundle.js"></script>
+        <script type="text/javascript" src="../js/vendor/moment.min.js"></script><!-- moment가 daterrange 위에 있어야함 -->
+        <script type="text/javascript" src="../js/vendor/daterangepicker.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+        <script type="text/javascript" src="../js/style.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="hdTop">
+                <div class="hdConWrap">
+                    <p>Welcome to the ROK-ICAO Fellowship training programme</p>
+                    <ul class="hdTopConWrap flex"><!--로그인 전-->
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
+                    <!-- <ul class="hdTopConWrap flex"> 로그인 후
+                        <li>
+                            <span class="usNm">User Name</span>
+                            <button class="btnLogout">Sign Out</button>
+                        </li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul> -->
+                </div>
+            </div>
+            <div class="gnbConWrap">
+                <nav class="hdConWrap">
+                    <a href="#" class="logo">K-FTP</a>
+                    <ul class="gnbCon flex">
+                        <li>
+                            <a href="#" class="menu">GENERAL INTRODUCTION</a>
+                            <ul class="subMenu">
+                                <li><a href="#">Greetings</a></li>
+                                <li><a href="#">History of Training Program</a></li>
+                                <li><a href="#">About MOLIT</a></li>
+                                <li><a href="#">Cooperation Institute</a></li>
+                                <li><a href="#">Aviation Academy</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu">TRAINING PROGRAMMES</a>
+                            <ul class="subMenu">
+                                <li><a href="#">Training Course</a></li>
+                                <li><a href="#">How to Apply</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu">MASTER PROGRAMMES</a>
+                            <ul class="subMenu">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Program</a></li>
+                                <li><a href="#">Admission</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu">COMMUNITY</a>
+                            <ul class="subMenu">
+                                <li><a href="#">Notice</a></li>
+                                <li><a href="#">Q&A</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Education Material</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li> 로그인 후 보여지는 메뉴
+                            <a href="#" class="menu">MY PAGE</a>
+                            <ul class="subMenu">
+                                <li><a href="#">My Training Cou rse</a></li>
+                                <li><a href="#">My Info</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+            <div class="hdBg"></div>
+        </header>
+
+        <section>
+            <div class="subContainer">
+                <div class="pageTitWrap flex">
+                    <p class="pageTit">How to Apply</p>
+                    <span class="parent">TRAINING PROGRAMMES</span>
+                </div>
+                
+                <div class="subConWrap">
+                    <p class="subTit">Step 1.</p>
+                    <div class="tbWrap">
+                        <table class="hwApp">
+                            <thead>
+                                <th>Register on the Official Website</th>
+                            </thead>
+                            <tbody>
+                                <td>
+                                    Visit the official ROK-ICAO FTP website and create an account.
+                                    <br>
+                                    Log in to access the application portal.
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="subConWrap">
+                    <p class="subTit">Step 2.</p>
+                    <div class="tbWrap">
+                        <table class="hwApp">
+                            <thead>
+                                <th>Select a Training Course & Submit the Application Browse the list of available training courses.</th>
+                            </thead>
+                            <tbody>
+                                <td>
+                                    Click on your desired course and complete the online application form.
+                                    <br>
+                                    <dl class="rqDocLst">
+                                        <dt>Upload the required documents:</dt>
+                                        <dd>Official Nomination Form (Attachment C)</dd>
+                                        <dd>Medical Report</dd>
+                                    </dl>
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="subConWrap">
+                    <p class="subTit">Step 3.</p>
+                    <div class="tbWrap">
+                        <table class="hwApp">
+                            <thead>
+                                <th>Selection Process & Announcement</th>
+                            </thead>
+                            <tbody>
+                                <td>
+                                    The selection process will be conducted based on the submitted applications.
+                                    <br>
+                                    Once the selection is finalized, the list of selected trainees will be posted on the official website after ICAO confirmation.
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="subConWrap">
+                    <p class="subTit">Step 4.</p>
+                    <div class="tbWrap">
+                        <table class="hwApp">
+                            <thead>
+                                <th>ICAO Award & Pre-Departure Preparation</th>
+                            </thead>
+                            <tbody>
+                                <td>
+                                    Selected trainees will receive an award from ICAO.
+                                    <br>
+                                    The designated training institution (CATC, IIAC, etc.) will contact each trainee individually with further instructions.
+                                    <br>
+                                    Trainees should prepare for their travel and entry into Korea following the provided guidelines.
+                                </td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="subConWrap">
+                    <p class="subTit">Remarks</p>
+                    <p>
+                        Selections will be made by the Selection Committee in the Republic of Korea with the application forms, 
+                        state letters from its Aviation Authorities, and official nomination form that are uploaded to the website 
+                        (<a class="link" href="https://www.korea-ftp.org" target="_blank">www.korea-ftp.org</a>).
+                        <br><br>
+                        For more details, please visit the official ROK-ICAO FTP website.
+                    </p>
+                </div>
+            </div>
+        </section> 
+
+        <footer>
+            <div class="footerWrap">
+                <ul>
+                    <li><a href="#" class="pp">Privacy Policy</a></li><!-- Privacy Policy 폰트 강조 클래스 추가 -->
+                </ul>
+                <div class="bottom">
+                    <div class="desc">
+                        <img src="../images/logo_w.png" alt="footer logo">
+                        <dl>
+                            <dt>ROK-ICAO <span>F</span>ELLOWSHIP <span>T</span>RAINING <span>P</span>ROGRAMME</dt>
+                            <dd>11 Doum 6-ro, Government Complex-Sejong, Sejong City 30103, Republic of Korea<br>
+                                Telephone : (Day)+82-44-1599-0001 (Night)+82-44-201-4672<br>
+                                Fax : (Day)+82-44-860-9500 (Night)+82-44-201-5700
+                            </dd>
+                        </dl>
+                    </div>
+                    <p class="copy">© 2024. Ministry of Land, Infrastructure and Transport. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <button class="topBtn">Top</button><!-- 페이지 탑 버튼 : 클릭 시 상단으로 이동 -->
+    </body> 
+</html>

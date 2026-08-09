@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .ico-plus-cls-1{fill:none}.ico-plus-cls-3{fill:#ddd}.ico-plus-cls-4{fill:transparent}
+        </style>
+        <clipPath>
+            <path d="M0 0h40v40H0z" class="ico-plus-cls-1"/>
+        </clipPath>
+    </defs>
+    <g class="ico-plus-cls-2">
+        <g transform="rotate(90 429 100)" class="ico-plus-cls-4">
+            <path d="M0 0h40v40H0z" class="ico-plus-cls-1" transform="rotate(90 -60 429)"/>
+            <path d="M-3458-1057v-6h-6v-2h6v-6h2v6h6v2h-6v6z" class="ico-plus-cls-3" transform="translate(3806 1573)"/>
+        </g>
+    </g>
+</svg>

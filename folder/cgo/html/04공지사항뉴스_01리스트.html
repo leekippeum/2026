@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width">
+        <title>Air Premia</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="../css/vendor/jquery-ui.css">
+        <link rel="stylesheet" href="../css/vendor/materialdesignicons.min.css">
+        <link rel="stylesheet" href="../css/webfont.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/sub.css">
+
+        <script type="text/javascript" src="../js/vendor/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="../js/vendor/jquery-ui.js"></script>
+        <script type="text/javascript" src="../js/vendor/jquery.bpopup.min.js"></script>
+        <script type="text/javascript" src="../js/vendor/moment.min.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+
+        <!--
+            * history: smartport, 1.0, 2022.09 - 초기작성
+            * author: smartport
+            * version: 1.0, 2022.09
+        //-->
+
+    </head>
+    <body>
+        <header>
+            <div class="headerGroup">
+                <nav class="gnb pc comPd">
+                    <h1 class="logo">
+                        <a href="/">에어프레미아</a>
+                    </h1>
+                    <ul class="main">
+                        <li><a class="label" href="">소개</a></li>
+                        <li><a class="label" href="">상품 및 서비스</a></li>
+                        <li><a class="label" href="">지점안내</a></li>
+                        <li><a class="label" href="">공지사항/뉴스</a></li>
+                    </ul>
+                    <div class="btnHeader">
+                        <ul class="hdMain">
+                            <li>
+                                <i class="iconLang"></i>
+                                <ul class="sCnd">
+                                    <li><a>한국어</a></li>
+                                    <li><a>English</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <nav class="gnb mb comPd">
+                    <h1 class="logo">
+                        <a href="/">에어프레미아</a>
+                    </h1>
+                    <div class="rightMenu">                    	
+                        <button class="btn open">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button> 
+                        <div class="menuWrap">                    	
+                            <button class="btn close">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                            <div class="btnHeaderMb">
+                                <ul class="main">
+                                    <li class="mbLangList">
+                                        <div class="flex">
+                                            <i class="icon iconLang white"></i>
+                                        </div>
+                                        <ul class="subMb">
+                                            <li><a>한국어</a></li>
+                                            <li><a>English</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="menus">
+                                <li class="list">				                  
+                                    <a>
+                                        <p>소개</p>
+                                        <i class="icon arrow black"></i>
+                                    </a>
+                                </li>
+                                <li class="list">				                  
+                                    <a>
+                                        <p>상품 및 서비스</p>
+                                        <i class="icon arrow black"></i>
+                                    </a>
+                                </li>
+                                <li class="list">			                  
+                                    <a>
+                                        <p>지점안내</p>
+                                        <i class="icon arrow black"></i>
+                                    </a>
+                                </li>
+                                <li class="list">					                  
+                                    <a>
+                                        <p>공지사항/뉴스</p>
+                                        <i class="icon arrow black"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="layout">
+            <div class="comTitle">
+                <h1 class="subTit">공지사항</h1>
+            </div>
+            <div class="ntcList">
+                <ul>
+                    <!-- 상단 두 개 공지 고정 class="fix" -->
+                    <li>
+                        <div class="ntclft fix">
+                            <dl>
+                                <dt>
+                                    인천-로스앤젤레스 노선 신규 취항 안내
+                                    <div class="badgeWrap">
+                                        <span class="badge">운항스케줄</span>
+                                    </div>
+                                </dt>
+                                <dd class="ftG">22년 10월 첫 취항을 시작하는 인천 - 로스앤젤레스 노선에 대해 안내 드립니다. 동급 최강의 편안함을 누려보세요!</dd>
+                            </dl>
+                        </div>
+                        <div class="ntcrgt ftG">2022-09-28</div>
+                    </li>
+                    <li>
+                        <div class="ntclft fix">
+                            <dl>
+                                <dt>
+                                    인천-로스앤젤레스 노선 신규 취항 안내
+                                    <div class="badgeWrap">
+                                        <span class="badge">유류할증료</span>
+                                    </div>
+                                </dt>
+                                <dd class="ftG">22년 10월 첫 취항을 시작하는 인천 - 로스앤젤레스 노선에 대해 안내 드립니다. 동급 최강의 편안함을 누려보세요!</dd>
+                            </dl>
+                        </div>
+                        <div class="ntcrgt ftG">2022-09-28</div>
+                    </li>
+                    <!-- 위 두 개 고정 -->
+                    <li>
+                        <div class="ntclft">
+                            <dl>
+                                <dt>
+                                    인천-로스앤젤레스 노선 신규 취항 안내
+                                    <div class="badgeWrap">
+                                        <span class="badge">제한사항</span>
+                                    </div>
+                                </dt>
+                                <dd class="ftG">22년 10월 첫 취항을 시작하는 인천 - 로스앤젤레스 노선에 대해 안내 드립니다. 동급 최강의 편안함을 누려보세요!</dd>
+                            </dl>
+                        </div>
+                        <div class="ntcrgt ftG">2022-09-28</div>
+                    </li>
+                    <li>
+                        <div class="ntclft">
+                            <dl>
+                                <dt>
+                                    인천-로스앤젤레스 노선 신규 취항 안내
+                                    <div class="badgeWrap">
+                                        <span class="badge">제한사항</span>
+                                    </div>
+                                </dt>
+                                <dd class="ftG">22년 10월 첫 취항을 시작하는 인천 - 로스앤젤레스 노선에 대해 안내 드립니다. 동급 최강의 편안함을 누려보세요!</dd>
+                            </dl>
+                        </div>
+                        <div class="ntcrgt ftG">2022-09-28</div>
+                    </li>
+                    <li>
+                        <div class="ntclft">
+                            <dl>
+                                <dt>
+                                    인천-로스앤젤레스 노선 신규 취항 안내
+                                    <div class="badgeWrap">
+                                        <span class="badge">제한사항</span>
+                                    </div>
+                                </dt>
+                                <dd class="ftG">22년 10월 첫 취항을 시작하는 인천 - 로스앤젤레스 노선에 대해 안내 드립니다. 동급 최강의 편안함을 누려보세요!</dd>
+                            </dl>
+                        </div>
+                        <div class="ntcrgt ftG">2022-09-28</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="paging">
+                <ul>
+                    <li class="btnMv pre"><a href="#">앞으로</a></li>
+                    <li class="on"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li class="btnMv next"><a href="#">뒤로</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <div class="top">
+                    <div class="left">
+                        <div class="box">
+                            <ul>
+                                <li>
+                                    <h3>회사소개</h3>
+                                </li>
+                                <li>
+                                    <a href="https://company.airpremia.com/PremiaGuide" target="_blank">에어프레미아 소개</a>
+                                </li>
+                                <li>
+                                    <a href="https://company.airpremia.com/notice?category=uNLb2IiOZ7" target="_blank">채용안내</a>
+                                </li>
+                                <li>
+                                    <a href="https://company.airpremia.com/notice?category=Pvd435myTa" target="_blank">투자정보</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:contact@airpremia.com" target="_blank">제휴문의</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <ul>
+                                <li>
+                                    <h3>약관 및 규정</h3>
+                                </li>
+                                <li>
+                                    <a href="">국제화물 운송약관</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h3>예약센터</h3>
+                        <h1 class="number">+82-2-6961-5758</h1>
+                        <div class="timeWrapper ftG">
+                            <p class="label">운영시간</p>
+                            <p class="time">월-금 AM 09:00 - PM 06:00</p>
+                        </div>
+                        <p class="info ftG">*운영시간은 한국 시간 기준입니다.</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left-contents">
+                        <div class="image-wrapper">
+                            <a href=""><img src="../images/airpremia_brand_logo_transparent.png" alt="AirPremiaLogo" /></a>
+                        </div>
+                        <div class="content ftG">
+                            <ul>
+                                <li>
+                                    <span>에어프레미아㈜</span>
+                                    <span>대표이사: 유명섭</span>
+                                    <span>사업자등록번호: 864-81-00738</span>
+                                    <span>통신판매업신고: 강서 제 20-2591</span>
+                                </li>
+                                <li>
+                                    <span>서울특별시 강서구 공항대로 248, 4층</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copy-right">
+                        <p>&copy; AIR PREMIA, Inc. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>            
+        </footer>
+    </body>
+</html>

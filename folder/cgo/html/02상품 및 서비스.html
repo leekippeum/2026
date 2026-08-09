@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width">
+        <title>Air Premia</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="../css/vendor/jquery-ui.css">
+        <link rel="stylesheet" href="../css/vendor/materialdesignicons.min.css">
+        <link rel="stylesheet" href="../css/webfont.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/sub.css">
+
+        <script type="text/javascript" src="../js/vendor/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="../js/vendor/jquery-ui.js"></script>
+        <script type="text/javascript" src="../js/vendor/jquery.bpopup.min.js"></script>
+        <script type="text/javascript" src="../js/vendor/moment.min.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+
+        <!--
+            * history: smartport, 1.0, 2022.09 - 초기작성
+            * author: smartport
+            * version: 1.0, 2022.09
+        //-->
+
+    </head>
+    <body>
+        <header>
+            <div class="headerGroup">
+                <nav class="gnb pc comPd">
+                    <h1 class="logo">
+                        <a href="/">에어프레미아</a>
+                    </h1>
+                    <ul class="main">
+                        <li><a class="label" href="">소개</a></li>
+                        <li><a class="label" href="">상품 및 서비스</a></li>
+                        <li><a class="label" href="">지점안내</a></li>
+                        <li><a class="label" href="">공지사항/뉴스</a></li>
+                    </ul>
+                    <div class="btnHeader">
+                        <ul class="hdMain">
+                            <li>
+                                <i class="iconLang"></i>
+                                <ul class="sCnd">
+                                    <li><a>한국어</a></li>
+                                    <li><a>English</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <nav class="gnb mb comPd">
+                    <h1 class="logo">
+                        <a href="/">에어프레미아</a>
+                    </h1>
+                    <div class="rightMenu">                    	
+                        <button class="btn open">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button> 
+                        <div class="menuWrap">                    	
+                            <button class="btn close">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                            <div class="btnHeaderMb">
+                                <ul class="main">
+                                    <li class="mbLangList">
+                                        <div class="flex">
+                                            <i class="icon iconLang white"></i>
+                                        </div>
+                                        <ul class="subMb">
+                                            <li><a>한국어</a></li>
+                                            <li><a>English</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="menus">
+                                <li class="list">				                  
+                                    <a>
+                                        <p>소개</p>
+                                        <i class="icon arrow black"></i>
+                                    </a>
+                                </li>
+                                <li class="list">				                  
+                                    <a>
+                                        <p>상품 및 서비스</p>
+                                        <i class="icon arrow black"></i>
+                                    </a>
+                                </li>
+                                <li class="list">			                  
+                                    <a>
+                                        <p>지점안내</p>
+                                        <i class="icon arrow black"></i>
+                                    </a>
+                                </li>
+                                <li class="list">					                  
+                                    <a>
+                                        <p>공지사항/뉴스</p>
+                                        <i class="icon arrow black"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="layout">
+            <div class="comTitle">
+                <h1 class="subTit">상품 및 서비스</h1>
+            </div>
+            <div class="tabMenu bd">
+                <div class="tabBtn">
+                    <button class="btn on">PREMIA350</button>
+                    <button class="btn">Premia Special</button>
+                    <button class="btn">Premia Express</button>
+                    <button class="btn">Premia Igloo</button>
+                </div>
+                <div class="tabCont">
+                    <div class="cont on">
+                        <div class="comContent">
+                            <h3 class="subSmTit">PREMIA 350</h3>
+                            <div class="contents">
+                                <p>에어프레미아 카고는 고객의 다양한 요구를 충족하기 위해 각 화물의 고유한 특성 및 취급 요건에 맞는 운송 서비스를 제공할 것을 약속드립니다. 세분화된 서비스 등급을 통해 고객이 원하는 시간에 목적지까지 도착할 수 있도록 보장합니다.</p>
+                                <div class="tbWrap mt20">
+                                    <table>
+                                        <colgroup>
+                                            <col width="25%">
+                                            <col width="25%">
+                                            <col width="50%">
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th>Class</th>
+                                                <th>Code</th>
+                                                <th>Service</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>Absolute</th>
+                                                <td>A</td>
+                                                <td>D-Day Connection</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Priority</th>
+                                                <td>P</td>
+                                                <td>First Available</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Zero</th>
+                                                <td>Z</td>
+                                                <td>Available</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comContent">
+                            <h3 class="subSmTit">상품</h3>
+                            <div class="contents pdSvImgWrap">
+                                <button class="imgBox">
+                                    <div class="badgeWrap">
+                                        <div class="badgeArrow">
+                                            <p><span class="mbNone">GOODS</span> 01</p>
+                                            <span class="angle">
+                                                <img src="../images/sub/badgeArrowAngle.svg">
+                                            </span>
+                                        </div>
+                                        <span class="arTxt">PREMIA Special</span>
+                                    </div>
+                                    <img class="pdSvImg" src="../images/sub/ban_special.png" alt="PREMIA Special 이미지">
+                                    <ul class="contents listGlobal">
+                                        <li>IATA 규정에 맞는 운송</li>
+                                        <li>각 화물 특성에 최적화된 서비스 제공</li>
+                                        <li>운송 전 구간에 대한 안전 보장</li>
+                                    </ul>
+                                </button>
+                                <button class="imgBox">
+                                    <div class="badgeWrap">
+                                        <div class="badgeArrow">
+                                            <p><span class="mbNone">GOODS</span> 02</p>
+                                            <span class="angle">
+                                                <img src="../images/sub/badgeArrowAngle.svg">
+                                            </span>
+                                        </div>
+                                        <span class="arTxt">PREMIA EXPRESS</span>
+                                    </div>
+                                    <img class="pdSvImg" src="../images/sub/ban_express.png" alt="PREMIA EXPRESS 이미지">
+                                    <ul class="contents listGlobal">
+                                        <li>높은 우선 순위와 처리 속도 보장</li>
+                                        <li>반입시간 단축</li>
+                                    </ul>
+                                </button>
+                                <button class="imgBox">
+                                    <div class="badgeWrap">
+                                        <div class="badgeArrow">
+                                            <p><span class="mbNone">GOODS</span> 03</p>
+                                            <span class="angle">
+                                                <img src="../images/sub/badgeArrowAngle.svg">
+                                            </span>
+                                        </div>
+                                        <span class="arTxt">PREMIA IGLOO</span>
+                                    </div>
+                                    <img class="pdSvImg" src="../images/sub/ban_igloo.png" alt="PREMIA IGLOO 이미지">
+                                    <ul class="contents listGlobal">
+                                        <li>냉장 컨테이너를 사용한 온도 조절</li>
+                                        <li>최우선 순위의 연결 보장</li>
+                                    </ul>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <div class="contents tabMenu rud">
+                            <div class="tabBtn">
+                                <button class="btn on">PREMIA FRESH</button>
+                                <button class="btn">PREMIA DGR</button>
+                                <button class="btn">PREMIA AVI</button>
+                            </div>
+                            <div class="tabCont">
+                                <div class="cont on">
+                                    <div class="comContent">
+                                        <h3 class="subSmTit">PREMIA FRESH</h3>
+                                        <div class="contents imgRound">
+                                            <img src="../images/sub/img_fresh.jpg" alt="PREMIA FRESH 이미지">
+                                        </div>
+                                    </div>
+                                    <div class="comContent pd30">
+                                        신선과일, 해산물, 꽃에 이르기까지 부패하기 쉬운 화물의 전 구간에 대한 온도 조절을 보장하며 목적지까지 신속한 운송을 보장합니다. IATA PCR(Perishable Cargo Regulation)에 맞는 보관 및 처리 절차에 따라 숙련된 직원이 관리합니다.
+                                    </div>
+                                    <div class="comContent">
+                                        <h3 class="subSmTit">제공 서비스</h3>
+                                        <div class="svcWrap">
+                                            <div class="svcBox">
+                                                <img class="svcImg" src="../images/sub/icon2.png" alt="냉동냉장 이미지">
+                                                <div class="svcCon">
+                                                    최적 온도 유지를 위한 냉동 또는 냉장창고 보관
+                                                </div>
+                                            </div>
+                                            <div class="svcBox">
+                                                <img class="svcImg" src="../images/sub/icon3.png" alt="기내온도 이미지">
+                                                <div class="svcCon">
+                                                    항공기내 온도 제어
+                                                </div>
+                                            </div>
+                                            <div class="svcBox">
+                                                <img class="svcImg" src="../images/sub/icon4.png" alt="우선순위 이미지">
+                                                <div class="svcCon">
+                                                    일반 화물보다 우선 순위 배정
+                                                </div>
+                                            </div>
+                                            <div class="svcBox">
+                                                <img class="svcImg" src="../images/sub/icon5.png" alt="빠른통관 이미지">
+                                                <div class="svcCon">
+                                                    빠른 통관
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <div class="comContent">
+                                        <h3 class="subSmTit">PREMIA DGR</h3>
+                                        <div class="contents imgRound">
+                                            <img src="../images/sub/img_dgr.jpg" alt="PREMIA DGR 이미지">
+                                        </div>
+                                    </div>
+                                    <div class="comContent pd30">
+                                        IATA DGR 규정에 따라 위험물이 목적지까지 안전하게 운송될 수 있도록 에어프레미아 카고의 숙련된 전문가가 보장합니다.  고객의 요건에 부합하는 서비스를 제공하기 위해 긴밀히 협력하겠습니다.  잠재적인 위험을 제거하기 위해 운송 전반에 걸쳐 엄격한 절차를 적용합니다.
+                                    </div>
+                                    <div class="comContent">
+                                        <h3 class="subSmTit">운송제한 안내</h3>
+                                        <ul class="contents listGlobal">
+                                            <li>위험물에 문제점이 발견되었을 경우, 운송이 제한될 수 있습니다.</li>
+                                            <li>CONSOL DG의 경우 1MAWB, 1HAWB 로 예약을 받습니다.(단, REQ/RRE/ICE/MAG/ELI/ELM/UN3373 Category B는 제외)</li>
+                                            <li>ELM/ELM  CONSOL 건은 AWB상에 각 수량 당 순중량을 표기하여야 합니다.</li>
+                                            <li>Air Mail/BUP/TRM으로는 위험물을 운송할 수 없습니다.</li>
+                                            <li>편당 DRY ICE 최대 중량은 380 Kg 입니다.</li>
+                                            <li>CLS 2.2(RCL) Cryogenic Liquid 는 부패성 화물 또는 온도에 민감한 화물과 함께 선적될 수 없습니다.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <div class="comContent">
+                                        <h3 class="subSmTit">PREMIA AVI</h3>
+                                        <div class="contents imgRound">
+                                            <img src="../images/sub/img_avi.jpg" alt="PREMIA AVI 이미지">
+                                        </div>
+                                    </div>
+                                    <div class="comContent pd30">
+                                        고객의 또 하나의 가족이자 친구의 편안한 여행이 될 수 있도록 세심한 보살핌과 서비스를 제공합니다. 동물들에게 충분한 환기, 공간, 온도 조절, 물과 음식 등을 제공하여 스트레스 없는 여행으로 기억이 남게 해드리겠습니다.  
+                                    </div>
+                                    <div class="comContent">
+                                        <h3 class="subSmTit">운송 안내</h3>
+                                        <ul class="contents listGlobal">
+                                            <li>개, 고양이, 새 외에는 운송이 제한됩니다. 기타 생동물의 경우 에어프레미아 카고에 문의 바랍니다.</li>
+                                            <li>위험한 품종의 개는 수송이 제한될 수 있습니다.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <div class="comContent">
+                            <h3 class="subSmTit">PREMIA EXPRESS</h3>
+                            <div class="contents imgRound">
+                                <img src="../images/sub/img_express.jpg" alt="PREMIA EXPRESS 이미지">
+                            </div>
+                        </div>
+                        <div class="comContent pd30">
+                            긴급을 요하는 화물에 대하여 목적지까지 가장 빠른 서비스를 제공합니다.  화물의 반입에서 반출까지 원스톱 처리를 통해 신속한 처리가 가능합니다. 운송에 대한 최우선 순위 배정으로 연결을 최소화할 수 있습니다.
+                        </div>
+                        <div class="comContent">
+                            <h3 class="subSmTit">제공 서비스</h3>
+                            <div class="svcWrap">
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon4.png" alt="우선순위 이미지">
+                                    <div class="svcCon">
+                                        일반 화물보다 우선 순위 배정
+                                    </div>
+                                </div>
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon5.png" alt="빠른통관 이미지">
+                                    <div class="svcCon">
+                                        빠른 통관
+                                    </div>
+                                </div>
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon6.png" alt="빠른통관 이미지">
+                                    <div class="svcCon">
+                                        반입시간 유예
+                                    </div>
+                                </div>
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon7.png" alt="빠른통관 이미지">
+                                    <div class="svcCon">
+                                        화물 예약 보장
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <div class="comContent">  
+                            <h3 class="subSmTit">Premia Igloo</h3>
+                            <div class="contents imgRound">
+                                <img src="../images/sub/img_igloo.jpg" alt="PREMIA IGLOO 이미지">
+                            </div>
+                        </div>
+                        <div class="comContent pd30">
+                            온도에 민감한 화물을 운송하기 위해 온도제어 컨테이너를 사용하여 운송 전 구간의 서비스를 제공합니다. 에어프레미아 카고는 해당 컨테이너 업체와의 협의로 고객의 요구에 맞는 컨테이너를 확보하였으며, 운송 중 발생할 수 있는 온도 변화에 관한 데이터 또한 고객에서 제공 가능합니다.
+                        </div>
+                        <div class="comContent">
+                            <h3 class="subSmTit">제공 서비스</h3>
+                            <div class="svcWrap">
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon1.png" alt="온도 유지 이미지">
+                                    <div class="svcCon">
+                                        콜드체인 프로세스에 따른 온도 유지 보장
+                                    </div>
+                                </div>
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon8.png" alt="온도제어 컨테이너 이미지">
+                                    <div class="svcCon">
+                                        온도제어 컨테이너를 통한 운송
+                                    </div>
+                                </div>
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon3.png" alt="기내온도 이미지">
+                                    <div class="svcCon">
+                                        항공기내 온도 제어
+                                    </div>
+                                </div>
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon4.png" alt="우선순위 이미지">
+                                    <div class="svcCon">
+                                        일반 화물보다 우선 순위 배정
+                                    </div>
+                                </div>
+                                <div class="svcBox">
+                                    <img class="svcImg" src="../images/sub/icon5.png" alt="빠른통관 이미지">
+                                    <div class="svcCon">
+                                        빠른 통관
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <div class="top">
+                    <div class="left">
+                        <div class="box">
+                            <ul>
+                                <li>
+                                    <h3>회사소개</h3>
+                                </li>
+                                <li>
+                                    <a href="https://company.airpremia.com/PremiaGuide" target="_blank">에어프레미아 소개</a>
+                                </li>
+                                <li>
+                                    <a href="https://company.airpremia.com/notice?category=uNLb2IiOZ7" target="_blank">채용안내</a>
+                                </li>
+                                <li>
+                                    <a href="https://company.airpremia.com/notice?category=Pvd435myTa" target="_blank">투자정보</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:contact@airpremia.com" target="_blank">제휴문의</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <ul>
+                                <li>
+                                    <h3>약관 및 규정</h3>
+                                </li>
+                                <li>
+                                    <a href="">국제화물 운송약관</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h3>예약센터</h3>
+                        <h1 class="number">+82-2-6961-5758</h1>
+                        <div class="timeWrapper ftG">
+                            <p class="label">운영시간</p>
+                            <p class="time">월-금 AM 09:00 - PM 06:00</p>
+                        </div>
+                        <p class="info ftG">*운영시간은 한국 시간 기준입니다.</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left-contents">
+                        <div class="image-wrapper">
+                            <a href=""><img src="../images/airpremia_brand_logo_transparent.png" alt="AirPremiaLogo" /></a>
+                        </div>
+                        <div class="content ftG">
+                            <ul>
+                                <li>
+                                    <span>에어프레미아㈜</span>
+                                    <span>대표이사: 유명섭</span>
+                                    <span>사업자등록번호: 864-81-00738</span>
+                                    <span>통신판매업신고: 강서 제 20-2591</span>
+                                </li>
+                                <li>
+                                    <span>서울특별시 강서구 공항대로 248, 4층</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copy-right">
+                        <p>&copy; AIR PREMIA, Inc. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>            
+        </footer>
+    </body>
+</html>
